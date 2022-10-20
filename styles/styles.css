@@ -1,0 +1,19 @@
+@import url(apresentacao.css);
+@import url(cards.css);
+@import url(footer.css);
+
+:root{
+    --font-poppins: "Poppins";
+    --font-openSans: "Open Sans";
+
+    
+    --color-dark-cyan: hsl(192, 100%, 9%);
+    --color-graysh-blue: hsl(208, 11%, 55%);
+    --color-pale-cyan: hsl(193, 100%, 96%);
+    --color-pink: hsl(322, 100%, 66%);
+    --color-white: #FFFFFF;
+}
+
+*{
+    box-sizing: border-box;
+}

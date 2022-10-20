@@ -1,0 +1,73 @@
+footer{
+    background-color: var(--color-dark-cyan);
+}
+
+.footer__logo{
+    color: var(--color-white);
+    background-color: var(--color-white);
+    margin-top: 10rem;
+}
+
+.footer__logos{
+    height: 1rem;
+    margin-top: .3rem;
+}
+
+.footer__container--itens{
+    display: flex;
+    justify-content: flex-start;
+    line-height: 1.5rem;
+    margin-left: .5rem;
+}
+
+.footer__container--itens p{
+    color: var(--color-pale-cyan);
+    font-family: var(--font-openSans);
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+nav{
+    margin-top: 3rem;
+}
+
+.footer__li{
+    margin-bottom: 1rem;
+    margin-left: .5rem;
+}
+
+.footer__li a{
+    color: var(--color-pale-cyan);
+    font-family: var(--font-openSans);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.footer__container--final{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-brands{
+    border: 1px solid var(--color-white);
+    border-radius: 50%;
+    color: var(--color-white);
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+
+
+.fa-twitter{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footer__container--final p{
+    color: var(--color-pale-cyan);
+    font-family: var(--font-openSans);
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,64 @@
+.cards{
+    align-items: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 1.5rem 2rem 1.5rem;
+    padding: 3rem 1.5rem;
+
+    border: 1px solid var(--color-pale-cyan);
+}
+
+.cards__first--img, .cards__second--img, .cards__third--img{
+    background-image: url(../images/illustration-grow-together.svg);
+    background-size: cover;
+    height: 30vh;
+    width: 55vw;
+}
+
+.cards__second--img{
+    background-image: url(../images/illustration-flowing-conversation.svg);
+}
+
+.cards__third--img{
+    background-image: url(../images/illustration-your-users.svg);
+}
+
+h3{
+    font-family: var(--font-poppins);
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.cards__text{
+    color: var(--color-graysh-blue);
+    font-family: var(--font-openSans);
+    font-size: .94rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.cards__getStarted{
+    align-items: center;
+    background-color: var(--color-white);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 1rem 0rem 1rem;
+    padding: 2rem 0rem;
+    position: relative;
+    top: 4rem;
+    border: 1px solid black;
+}
+
+.cards__getStarted h3{
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.cards__button{
+    margin-top: 1.5rem;
+}
