@@ -3,9 +3,10 @@ footer{
 }
 
 .footer__logo{
-    color: var(--color-white);
-    background-color: var(--color-white);
+    margin-left: 0rem;
     margin-top: 10rem;
+    margin-bottom: 2rem;
+    width: 10rem;
 }
 
 .footer__logos{
@@ -59,7 +60,10 @@ nav{
     padding: .5rem;
 }
 
-
+.fa-facebook-f{
+    padding-left: .7rem;
+    padding-right: .7rem;
+}
 
 .fa-twitter{
     margin-left: 1rem;

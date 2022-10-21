@@ -22,6 +22,7 @@
 .apresentacao__button{
     background-color: var(--color-white);
     border-radius: 2rem;
+    box-shadow: 1px 1px 5px 1px var(--color-graysh-blue);
     font-family: var(--font-openSans);
     font-size: .7rem;
     font-weight: 700;
