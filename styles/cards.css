@@ -1,18 +1,26 @@
-.cards{
+.cards__container{
     align-items: center;
-    border-radius: 2rem;
-    box-shadow: 1px 1px 8px 1px var(--color-pale-cyan);
     display: flex;
     flex-direction: column;
-    margin: 4rem 1.5rem 2rem 1.5rem;
-    padding: 3rem 1.5rem;
+}
+
+.cards{
+    align-items: center;
+    border-radius: 1.5rem;
+    box-shadow: 1px 1px 5px 1px var(--color-cards-box-shadow);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    width: 80vw;
 }
 
 .cards__first--img, .cards__second--img, .cards__third--img{
     background-image: url(../images/illustration-grow-together.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 30vh;
-    width: 55vw;
+    width: 50vw;
 }
 
 .cards__second--img{
@@ -25,39 +33,38 @@
 
 h3{
     font-family: var(--font-poppins);
-    font-size: 1.3rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
 .cards__text{
+    text-align: center;
     color: var(--color-graysh-blue);
     font-family: var(--font-openSans);
-    font-size: .94rem;
+    font-size: .8rem;
     line-height: 1.5rem;
-    text-align: center;
 }
 
 .cards__getStarted{
     align-items: center;
+    border-radius: 1.5rem;
     background-color: var(--color-white);
-    border-radius: 2rem;
-    box-shadow: 0px 1px 2px 0px var(--color-graysh-blue);
+    box-shadow: 1px 1px 2px 1px var(--color-cards-box-shadow);
     display: flex;
     flex-direction: column;
-    margin: 8rem 1rem 0rem 1rem;
-    padding: 2rem 0rem;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    padding: 2.5rem 1.5rem;
     position: relative;
-    top: 4rem;
+    top: 3rem;
+    width: 90vw;
 }
 
 .cards__getStarted h3{
-    font-size: 1.2rem;
-    margin: 0rem;
-    padding: 0rem;
+    font-size: 1rem;
 }
 
-.cards__button{
-    margin-top: 1.5rem;
+.cards__getStarted span{
+    margin-bottom: 0rem;
 }
