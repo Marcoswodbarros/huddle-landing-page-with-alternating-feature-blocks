@@ -20,6 +20,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: 30vh;
+    margin-top: 2.5rem;
     width: 50vw;
 }
 
@@ -63,6 +64,7 @@ h3{
 
 .cards__getStarted h3{
     font-size: 1rem;
+    margin-top: .7rem;
 }
 
 .cards__getStarted span{
