@@ -1,0 +1,94 @@
+main{
+    background-color: var(--color-white);
+    border-radius: .6rem;
+    margin-bottom: 10rem;
+    width: 100%;
+}
+
+.mobile__picture{
+    background-image: url(../images/drawers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: .6rem .6rem 0rem 0rem;
+    height: 30vh;
+}
+
+h1, p{
+    color: var(--color-very-dark-grayish-blue);
+    font-family: var(--font-manrope);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+    padding: 2.5rem 2rem .8rem;
+}
+
+p{
+    color: var(--color-desaturated-dark-blue);
+    font-size: .8rem;
+    font-weight: 400;
+    padding-right: 2.7rem;
+    padding-top: 0rem;
+}
+
+
+
+/* -----------------------------------------------*/
+
+@media screen and (min-width: 1024px){
+    main{
+        display: flex;
+        width: 70%;
+        position: relative;
+    }
+
+    .mobile__picture{
+        background-position: center;
+        background-size: cover;
+        border-bottom-left-radius: .6rem;
+        border-top-right-radius: 0rem;
+        height: 43vh;
+        width: 60%;
+    }
+
+    .main__text{
+        padding-left: .8rem;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 1.21rem;
+        line-height: 1.7rem;
+        padding-top: 2rem;
+    }
+
+    p{
+        font-size: .76rem;
+    }
+
+    .container__desktop{
+        width: 100%;
+    }
+}
+
+
+
+/* -----------------------------------------------*/
+
+@media screen and (min-width: 1440px){
+    .main__text{
+        padding-left: 1.8rem;
+        padding-right: 1.4rem;
+        padding-top: 1.5rem;
+    }
+
+    h1{
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+    }
+    
+    p{
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+}
