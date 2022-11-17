@@ -70,3 +70,65 @@ h3{
 .cards__getStarted span{
     margin-bottom: 0rem;
 }
+
+
+@media screen and (min-width: 1440px){
+    .cards__container{
+        margin-top: 10rem;
+    }
+
+    .cards{
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .cards__first--img, .cards__second--img, .cards__third--img{
+        background-size: cover;
+        height: 45vh;
+        margin-bottom: 2em;
+        width: 30vw;
+    }
+
+    .second{
+        flex-direction: row;
+    }
+
+    .cards__second--img{
+        background-size: contain;
+        margin-bottom: 0rem;
+        margin-left: 3rem;
+    }
+
+    .cards__container--text{
+        margin-left: 5rem;
+        width: 40%;
+    }
+
+    h3{
+        font-size: 1.8rem;
+    }
+
+    .cards__text{
+        font-size: 1.03rem;
+        text-align: start;
+    }
+
+    .secondCard{
+        font-size: 1rem;
+    }    
+
+    .cards__getStarted{
+        width: 50vw;
+    }
+
+    .cards__getStarted h3{
+        font-size: 1.8rem;
+    }
+
+    .cards__getStarted span{
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+}
