@@ -75,3 +75,64 @@ nav{
     padding-left: .9rem;
     padding-right: .9rem;
 }
+
+.desktop__copyright{
+    display: none;
+}
+
+
+@media screen and (min-width: 1440px){
+    footer{
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        height: 60vh;
+    }
+
+    .footer__logo{
+        height: 2.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .footer__nav--mobile{
+        display: none;
+    }
+
+    .container__nav--desktop{
+        display: flex;
+        margin-top: 6.2rem;
+    }
+
+    .footer__nav--desktop{
+        margin-right: 7rem;
+    }
+
+    .footer__container--final{
+        margin-top: 4rem;
+    }
+
+    .footer__brands i{
+        padding: .5rem;
+        position: relative;
+        right: 5rem;
+    }
+    
+    .fa-twitter{
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    #facebook{
+        padding-right: .65rem;
+        padding-left: .65rem;
+    }
+
+    .desktop__copyright{
+        display: inline;
+    }
+
+    .copyright{
+        position: relative;
+        top: 10rem;
+    }    
+}

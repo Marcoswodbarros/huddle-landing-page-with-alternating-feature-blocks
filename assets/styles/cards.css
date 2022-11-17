@@ -36,6 +36,7 @@ h3{
     font-family: var(--font-poppins);
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .cards__text{
@@ -119,6 +120,8 @@ h3{
     }    
 
     .cards__getStarted{
+        height: 15rem;
+        top: 5rem;
         width: 50vw;
     }
 

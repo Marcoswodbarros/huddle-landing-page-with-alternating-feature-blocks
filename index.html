@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,21 +17,21 @@
 
 <body>
     <main>
-        <div class="apresentacao">
-            <div class="apresentacao__container--img">
-                <img src="assets/images/logo.svg" class="apresentacao__logo" alt="Logo da Huddle">
-                <span class="apresentacao__button">Try it Free</span>
+        <div class="introduction">
+            <div class="introduction__container--img">
+                <img src="assets/images/logo.svg" class="introduction__logo" alt="Logo da Huddle">
+                <span class="introduction__button"><a rel="#" class="link__style--first">Try it Free</a></span>
             </div>
 
-            <div class="apresentacao__container--final">
-                <div class="apresentacao__container--text">
+            <div class="introduction__container--position">
+                <div class="introduction__container--text">
                     <h1>Build The Community Your Fans Will Love</h1>
                     <p class="apresentation__text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-                    <span class="apresentacao__button-pink">Get Started For Free</span>
+                    <span class="introduction__button-pink"><a href="#" class="link__style">Get Started For Free</a></span>
                 </div>
 
-                <div class="apresentacao__container--second-img">
-                    <div class="apresentacao__second-img"></div>
+                <div class="introduction__container--second-img">
+                    <div class="introduction__second-img"></div>
                 </div>
             </div>
         </div>
@@ -63,29 +63,31 @@
 
             <div class="cards__getStarted">
                 <h3>Ready To Build Your Community?</h3>
-                <span class="apresentacao__button-pink cards__button">Get Started For Free</span>
+                <span class="introduction__button-pink cards__button"><a rel="#" class="link__style">Get Started For Free</a></span>
             </div>
         </div>
     </main>
 
     <footer>
-        <img src="assets/images/huddle-footer.png" class="apresentacao__logo footer__logo" alt="Logo da Huddle">
-        <div class="footer__container--itens">
-            <img src="assets/images/icon-location.svg" class="footer__logos" alt="Ícone da localização">
-            <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elite, sed <br> do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua</p>
+        <div class="container__itens">
+            <img src="assets/images/huddle-footer.png" class="introduction__logo footer__logo" alt="Logo da Huddle">
+            <div class="footer__container--itens">
+                <img src="assets/images/icon-location.svg" class="footer__logos" alt="Ícone da localização">
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elite, sed <br> do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua</p>
+            </div>
+
+            <div class="footer__container--itens">
+                <img src="assets/images/icon-phone.svg" class="footer__logos" alt="Ícone do telefone">
+                <p>+1-543-123-4567</p>
+            </div>
+            
+            <div class="footer__container--itens">
+                <img src="assets/images/icon-email.svg" class="footer__logos" alt="Ícone do email">
+                <p>example@fylo.com</p>
+            </div>  
         </div>
 
-        <div class="footer__container--itens">
-            <img src="assets/images/icon-phone.svg" class="footer__logos" alt="Ícone do telefone">
-            <p>+1-543-123-4567</p>
-        </div>
-        
-        <div class="footer__container--itens">
-            <img src="assets/images/icon-email.svg" class="footer__logos" alt="Ícone do email">
-            <p>example@fylo.com</p>
-        </div>
-
-        <nav>
+        <nav class="footer__nav--mobile">
             <ul>
                 <li class="footer__li"><a href="#">About Us</a></li>
                 <li class="footer__li"><a href="#">What We Do</a></li>
@@ -96,6 +98,24 @@
             </ul>
         </nav>
 
+        <div class="container__nav--desktop">
+            <nav class="footer__nav--desktop">
+                <ul>
+                    <li class="footer__li"><a href="#">About Us</a></li>
+                    <li class="footer__li"><a href="#">What We Do</a></li>
+                    <li class="footer__li"><a href="#">FAQ</a></li>
+                </ul>
+            </nav>    
+
+            <nav>   
+                <ul>
+                    <li class="footer__li"><a href="#">Career</a></li>
+                    <li class="footer__li"><a href="#">Blog</a></li>
+                    <li class="footer__li"><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <div class="footer__container--final">
             <div class="footer__brands">
                 <i class="fa-brands fa-facebook-f" id="facebook"></i>
@@ -103,9 +123,8 @@
                 <i class="fa-brands fa-instagram"></i>
             </div>
 
-            <p>&copy; 2022 Huddle. All rights reserved</p>
+            <p class="copyright">&copy; <span class="desktop__copyright">Copyright</span> 2022 Huddle. All rights reserved</p>
         </div>
     </footer>
-    
 </body>
 </html>

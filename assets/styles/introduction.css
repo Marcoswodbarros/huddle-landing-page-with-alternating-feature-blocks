@@ -1,0 +1,140 @@
+.introduction{
+    background-color: var(--color-pale-cyan);
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-size: contain;
+    height: 110vh;
+    margin-bottom: 4rem;
+}
+
+.introduction__container--img{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.introduction__logo{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    height: 1.3rem;
+}
+
+.introduction__button{
+    background-color: var(--color-white);
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 1px var(--color-graysh-blue);
+    font-family: var(--font-openSans);
+    font-size: .8rem;
+    font-weight: 700;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    padding: .4rem 1.2rem;
+}
+
+.introduction__container--position{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction__container--text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 82vw;
+}
+
+h1{
+    font-family: var(--font-poppins);
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.apresentation__text{
+    color: var(--color-dark-cyan);
+    font-family: var(--font-openSans);
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.introduction__button-pink{
+    color: var(--color-white);
+    background-color: var(--color-pink);
+    border-radius: 2rem;
+    font-family: var(--font-poppins);
+    font-size: .8rem;
+    margin-bottom: 3rem;
+    padding: 1rem 3.5rem;
+}
+
+.link__style{
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.introduction__second-img{
+    background-image: url(../images/illustration-mockups.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 80vw;
+}
+
+
+@media screen and (min-width: 1440px){
+    .introduction{
+        height: 80vh;
+    }
+
+    .introduction__logo{
+        height: 1.5rem;
+        margin-left: 4rem;
+    }
+    
+    .introduction__button{
+        cursor: pointer;
+        margin-right: 4rem;
+        padding: .8rem 2.5rem;
+    }
+    
+    .link__style--first{
+        color: var(--color-dark-cyan);
+    }
+
+    .link__style{
+        color: var(--color-white);
+        text-decoration: none;
+    }
+
+    .introduction__container--position{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .introduction__container--text{
+        margin-bottom: 5rem;
+        width: 32vw;
+    }
+
+    h1{
+        font-size: 2.2rem;
+        text-align: start;
+    }
+
+    .apresentation__text{
+        text-align: start;
+    }
+
+    .introduction__button-pink{
+        cursor: pointer;
+    }
+
+    .introduction__second-img{
+        height: 70vh;
+        width: 43vw;
+    }
+}
