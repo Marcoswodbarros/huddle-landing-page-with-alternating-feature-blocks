@@ -30,10 +30,11 @@ Users should be able to:
 
 ![2022-11-17 (3)](https://user-images.githubusercontent.com/108278189/202545413-63ae2e09-a626-4055-a845-4c60c31c20dd.png)
 
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Marcoswodbarros/huddle-landing-page-with-alternating-feature-blocks.git]
+- Live Site URL: [https://marcoswodbarros.github.io/huddle-landing-page-with-alternating-feature-blocks/]
 
 
 ## My process
@@ -56,6 +57,6 @@ To my next projects, I will try to start working with JS and keep exercising my 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [Marcos Barros](https://github.com/Marcoswodbarros)
+- Linkedin - [Marcoswodbarros](www.linkedin.com/in/marcoswodbarros)
+- Frontend Mentor - [@Marcoswodbarros](https://www.frontendmentor.io/profile/Marcoswodbarros)
